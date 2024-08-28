@@ -63,16 +63,30 @@
 }
 
 .empresa-texto {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.4;
+  margin-top: 10px;
   color: #525252;
+  grid-column: 1;
+}
+
+.empresa img {
+  width: 350px;
+  height: 205px;
+  margin-top: 10px;
+  grid-column: 2;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .empresa-habilidades {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   align-content: start;
+  grid-column: 2;
 }
 
 .empresa-habilidades li {
